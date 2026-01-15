@@ -1,0 +1,50 @@
+.process {
+  padding-block: 100px;
+}
+
+.process__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.process__subtitle {
+  display: block;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-accent);
+  letter-spacing: 2px;
+}
+
+.process__title {
+  font-size: 39px;
+  color: var(--color-text-primary);
+  margin-bottom: 47px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.process__list {
+  display: flex;
+  gap: 16px;
+}
+
+.process__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 378px;
+  text-align: center;
+}
+
+.process__card svg {
+  margin-bottom: 15px;
+}
+
+.process__heading {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  margin-bottom: 10px;
+}
