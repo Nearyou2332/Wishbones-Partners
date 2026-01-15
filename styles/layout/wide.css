@@ -1,0 +1,7 @@
+.wide {
+  margin: 0 auto;
+  max-width: var(--wide-width);
+  display: flex;
+  justify-content: flex-end;
+  padding-inline: 60px;
+}

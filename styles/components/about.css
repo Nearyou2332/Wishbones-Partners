@@ -1,0 +1,30 @@
+.about {
+  padding: 100px 0;
+}
+
+.about__inner {
+  max-width: 768px;
+  display: flex;
+  gap: 132px;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about__text {
+  max-width: 502px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+}

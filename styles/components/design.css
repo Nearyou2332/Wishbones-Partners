@@ -1,0 +1,59 @@
+.design--house {
+  background-image: image-set(
+    url("../../images/design/bg-house.jpg") type("image/avif"),
+    url("../../images/design/bg-house.webp") type("image/webp"),
+    url("../../images/design/bg-house.jpg")
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.design--stairs {
+  background-image: image-set(
+    url("../../images/design/bg-marble-stairs.jpg") type("image/avif"),
+    url("../../images/design/bg-marble-stairs.webp") type("image/webp"),
+    url("../../images/design/bg-marble-stairs.jpg")
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.design--invert {
+  background-image: image-set(
+    url("../../images/design/bg-swirling-stairs.jpg") type("image/avif"),
+    url("../../images/design/bg-swirling-stairs.webp") type("image/webp"),
+    url("../../images/design/bg-swirling-stairs.jpg")
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.design--invert .wide {
+  justify-content: start;
+}
+
+.design__content {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 266px;
+}
+
+.design__subtitle {
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+  letter-spacing: 2px;
+}
+
+.design__text {
+  font-size: var(--font-size-md);
+  color: var(--color-text-accent);
+}

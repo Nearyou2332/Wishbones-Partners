@@ -1,0 +1,23 @@
+.worker {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.worker__image {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.worker__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.worker__text {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-accent);
+}

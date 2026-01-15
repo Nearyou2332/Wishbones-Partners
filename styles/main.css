@@ -8,15 +8,17 @@
 /* 3. Base */
 @import "base/base.css";
 
-/* 4. Objects */
-@import "objects/container.css";
-@import "objects/grid.css";
+/* 4. Layout */
+@import "layout/container.css";
+@import "layout/wide.css";
 
 /* 5. Components */
+@import "components/button.css";
 @import "components/header.css";
 @import "components/menu.css";
 @import "components/hero.css";
 @import "components/about.css";
+@import "components/worker.css";
 @import "components/design.css";
 @import "components/process.css";
 @import "components/clients.css";

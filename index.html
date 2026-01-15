@@ -14,11 +14,11 @@
       <div class="container">
         <div class="header__content">
           <a href="/" class="header__logo" aria-label="Wishbone Partners logo">
-            <svg aria-hidden="true" focusable="false">
+            <svg aria-hidden="true" focusable="false" width="220" height="19">
               <use href="images/svg/sprite.svg#logo-icon" />
             </svg>
           </a>
-          <nav class="menu">
+          <nav class="menu header__menu">
             <ul class="menu__list">
               <li class="menu__item">
                 <a href="" class="menu__link">Projects</a>
@@ -45,69 +45,78 @@
       <!-- hero -->
 
       <section class="hero">
-        <div class="container">
-          <div class="hero__content">
-            <span class="hero__subtitle">Wishbone+Partners</span>
-            <h1 class="hero__title">
-              The home of&nbsp;beautiful architecture.
-            </h1>
-            <p class="hero__descr">
-              We&nbsp;are an&nbsp;architecture firm with a&nbsp;focus
-              on&nbsp;beautiful but functional design. At&nbsp;its heart,
-              we&nbsp;believe design is&nbsp;about usability and
-              accessibility&nbsp;&mdash; these are the guiding principles for
-              our work. Read more about our previous projects, our process and
-              our team below.
-            </p>
-            <a href="" class="hero__link">Read more</a>
+        <div class="hero__inner">
+          <div class="hero__left">
+            <div class="hero__content">
+              <span class="hero__subtitle">Wishbone+Partners</span>
+              <h1 class="hero__title">
+                The home of&nbsp;beautiful architecture.
+              </h1>
+              <p class="hero__descr">
+                We&nbsp;are an&nbsp;architecture firm with a&nbsp;focus
+                on&nbsp;beautiful but functional design. At&nbsp;its heart,
+                we&nbsp;believe design is&nbsp;about usability and
+                accessibility&nbsp;&mdash; these are the guiding principles for
+                our work. Read more about our previous projects, our process and
+                our team below.
+              </p>
+              <a href="#" class="btn btn--transparent">Read more</a>
+            </div>
           </div>
-          <picture>
-            <img
-              src="images/hero-image.jpg"
-              alt="beautiful house with planted trees"
-              srcset="images/hero-image-2x.jpg 2x"
-            />
-          </picture>
+          <div class="hero__media">
+            <picture>
+              <img
+                class="hero__image"
+                src="images/hero/hero-image.jpg"
+                alt="beautiful house with planted trees"
+                srcset="images/hero/hero-image-2x.jpg 2x"
+                width="720"
+                height="720"
+              />
+            </picture>
+          </div>
         </div>
       </section>
 
       <!-- about -->
 
       <section class="about">
-        <div class="container">
+        <div class="about__inner">
           <h2 class="about__title">Our firm</h2>
           <div class="about__content">
-            <p class="about__descr">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
-              cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
-              ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
-              et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
-              ut&nbsp;sem vitae risus tristique posuere.
-            </p>
-            <p class="about__descr">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
-              cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
-              ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
-              et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
-              ut&nbsp;sem vitae risus tristique posuere.
-            </p>
-            <p class="about__descr">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
-              cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
-              ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
-              et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
-              ut&nbsp;sem vitae risus tristique posuere.
-            </p>
+            <div class="about__text">
+              <p class="about__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
+                cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
+                ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
+                et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
+                ut&nbsp;sem vitae risus tristique posuere.
+              </p>
+              <p class="about__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
+                cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
+                ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
+                et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
+                ut&nbsp;sem vitae risus tristique posuere.
+              </p>
+              <p class="about__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
+                cursus, mi&nbsp;quis viverra ornare, eros dolor interdum nulla,
+                ut&nbsp;commodo diam libero vitae erat. Aenean faucibus nibh
+                et&nbsp;justo cursus id&nbsp;rutrum lorem imperdiet. Nunc
+                ut&nbsp;sem vitae risus tristique posuere.
+              </p>
+            </div>
             <div class="worker">
               <img
-                src="images/about-image.jpg"
+                src="images/workers/worker-1.png"
                 alt="Stephen Collier photo"
                 class="worker__image"
               />
-              <div class="worker__text-wrap">
+              <div class="worker__wrap">
                 <span class="worker__subtitle">Stephen Collier</span
                 ><span class="worker__text">Senior Partner</span>
               </div>
@@ -122,14 +131,16 @@
         class="design design--house"
         aria-labelledby="design-reeding-house-title"
       >
-        <div class="design__content">
-          <h2 class="visually-hidden" id="design-reeding-house-title">
-            Design Reeding House
-          </h2>
-          <p class="design__subtitle">Reeding House</p>
-          <p class="design__text">
-            Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
-          </p>
+        <div class="wide">
+          <div class="design__content">
+            <h2 class="visually-hidden" id="design-reeding-house-title">
+              Design Reeding House
+            </h2>
+            <p class="design__subtitle">Reeding House</p>
+            <p class="design__text">
+              Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -189,14 +200,16 @@
         class="design design--stairs"
         aria-labelledby="design-marble-staircase-title"
       >
-        <div class="design__content">
-          <h2 class="visually-hidden" id="design-marble-staircase-title">
-            Design the marble staircase
-          </h2>
-          <p class="design__subtitle">The marble staircase</p>
-          <p class="design__text">
-            Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
-          </p>
+        <div class="wide">
+          <div class="design__content">
+            <h2 class="visually-hidden" id="design-marble-staircase-title">
+              Design the marble staircase
+            </h2>
+            <p class="design__subtitle">The marble staircase</p>
+            <p class="design__text">
+              Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -236,14 +249,16 @@
         class="design design--invert"
         aria-labelledby="design-swirling-staircase-title"
       >
-        <div class="design__content">
-          <h2 class="visually-hidden" id="design-swirling-staircase-title">
-            Design the swirling staircase
-          </h2>
-          <p class="design__subtitle">The swirling staircase</p>
-          <p class="design__text">
-            Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
-          </p>
+        <div class="wide">
+          <div class="design__content">
+            <h2 class="visually-hidden" id="design-swirling-staircase-title">
+              Design the swirling staircase
+            </h2>
+            <p class="design__subtitle">The swirling staircase</p>
+            <p class="design__text">
+              Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -299,7 +314,7 @@
                     alt="Stephen Collier photo"
                     class="worker__image"
                   />
-                  <div class="worker__text-wrap">
+                  <div class="worker__wrap">
                     <span class="worker__subtitle">Stephen Collier</span
                     ><span class="worker__text">Senior Partner</span>
                   </div>
@@ -312,7 +327,7 @@
                     alt="Nolan Peters photo"
                     class="worker__image"
                   />
-                  <div class="worker__text-wrap">
+                  <div class="worker__wrap">
                     <span class="worker__subtitle">Nolan Peters</span
                     ><span class="worker__text">Associate</span>
                   </div>
@@ -325,7 +340,7 @@
                     alt="Ferris Wonder photo"
                     class="worker__image"
                   />
-                  <div class="worker__text-wrap">
+                  <div class="worker__wrap">
                     <span class="worker__subtitle">Ferris Wonder</span
                     ><span class="worker__text">Associate Partner</span>
                   </div>
@@ -338,7 +353,7 @@
                     alt="Aria Stone photo"
                     class="worker__image"
                   />
-                  <div class="worker__text-wrap">
+                  <div class="worker__wrap">
                     <span class="worker__subtitle">Aria Stone</span
                     ><span class="worker__text">Senior Partner</span>
                   </div>
@@ -351,7 +366,7 @@
                     alt="Niko Ferry photo"
                     class="worker__image"
                   />
-                  <div class="worker__text-wrap">
+                  <div class="worker__wrap">
                     <span class="worker__subtitle">Niko Ferry</span
                     ><span class="worker__text">Partner</span>
                   </div>
