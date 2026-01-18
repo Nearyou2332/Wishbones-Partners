@@ -1,0 +1,17 @@
+.socials__list {
+  display: flex;
+  gap: 20px;
+}
+
+.socials__link {
+  outline: none;
+  transition: color 0.3s;
+}
+
+.socials__link:focus-visible {
+  color: var(--color-brown);
+}
+
+.socials__link:hover {
+  color: var(--color-dark-beige);
+}

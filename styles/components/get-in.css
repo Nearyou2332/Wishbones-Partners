@@ -1,0 +1,27 @@
+.get-in {
+  padding-block: 100px;
+  background-color: var(--color-dark-beige);
+}
+
+.get-in__container {
+  display: flex;
+  align-items: center;
+}
+
+.get-in__left {
+  margin-right: auto;
+  max-width: 576px;
+}
+
+.get-in__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-text-accent);
+}
+
+.get-in__title {
+  font-size: 40px;
+  color: var(--color-text-primary);
+  font-weight: 400;
+  line-height: 1;
+}

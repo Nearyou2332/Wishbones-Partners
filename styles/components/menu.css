@@ -2,3 +2,16 @@
   display: flex;
   gap: 32px;
 }
+
+.menu__link {
+  transition: color 0.3s;
+}
+
+.menu__link:focus-visible {
+  outline: 2px solid var(--color-brown);
+  outline-offset: 3px;
+}
+
+.menu__link:hover {
+  color: var(--color-dark-beige);
+}

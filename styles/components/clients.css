@@ -5,7 +5,7 @@
 
 .clients__content {
   display: flex;
-  gap: 132px;
+  gap: clamp(48px, 8vw, 132px);
   align-items: center;
 }
 
@@ -36,8 +36,7 @@
 .clients__right {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  flex-wrap: wrap;
   align-items: center;
   gap: 96px;
-  padding: 40px;
+  /* padding: 40px; */
 }

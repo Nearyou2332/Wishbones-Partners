@@ -21,19 +21,19 @@
           <nav class="menu header__menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="" class="menu__link">Projects</a>
+                <a href="" class="menu__link" aria-current="page">Projects</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">About</a>
+                <a href="" class="menu__link" aria-current="page">About</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">News</a>
+                <a href="" class="menu__link" aria-current="page">News</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">Team</a>
+                <a href="" class="menu__link" aria-current="page">Team</a>
               </li>
               <li class="menu__item">
-                <a href="" class="menu__link">Contact</a>
+                <a href="" class="menu__link" aria-current="page">Contact</a>
               </li>
             </ul>
           </nav>
@@ -285,36 +285,34 @@
 
       <section class="projects">
         <div class="container">
-          <h2 class="projects__title">Featured projects</h2>
-          <p class="projects__descr">
-            Some of&nbsp;the latest and greatest projects from&nbsp;us here
-            at&nbsp;Wishbone+Partners.
-          </p>
-          <ul class="projects__list">
-            <li class="projects__item">
-              <div class="projects__card"></div>
-            </li>
-            <li class="projects__item">
-              <div class="projects__card">
-                <span class="projects__text">New York</span>
-                <span class="projects__text projects__text--big">
-                  Big Road Brewery
-                </span>
-                <a href="#" class="projects__btn">Read more</a>
-              </div>
-            </li>
-            <li class="projects__item">
-              <div class="projects__card"></div>
-            </li>
-          </ul>
-          <a href="#" class="projects__link">View all projects</a>
+          <div class="projects__content">
+            <div class="projects__top">
+              <h2 class="projects__title">Featured projects</h2>
+              <p class="projects__descr">
+                Some of&nbsp;the latest and greatest projects from&nbsp;us here
+                at&nbsp;Wishbone+Partners.
+              </p>
+            </div>
+            <ul class="projects__list">
+              <li class="projects__item"></li>
+              <li class="projects__item">
+                <p class="projects__subtitle">New York</p>
+                <p class="projects__heading">Big Road Brewery</p>
+                <a href="#" class="btn">Read more</a>
+              </li>
+              <li class="projects__item"></li>
+            </ul>
+            <a href="#" class="btn btn--transparent btn--center"
+              >View all projects</a
+            >
+          </div>
         </div>
       </section>
 
       <!-- team -->
 
       <section class="team">
-        <div class="container">
+        <div class="container team__container">
           <div class="team__left">
             <h2 class="team__title">Meet our team</h2>
             <p class="team__descr">
@@ -322,7 +320,7 @@
               Suspendisse varius enim in&nbsp;eros elementum tristique. Duis
               cursus, mi&nbsp;quis.
             </p>
-            <a href="#" class="team__link">See team</a>
+            <a href="#" class="btn btn--transparent">See team</a>
           </div>
           <div class="team__right">
             <ul class="team__list">
@@ -399,14 +397,14 @@
       <!-- get-in -->
 
       <section class="get-in">
-        <div class="container">
+        <div class="container get-in__container">
           <div class="get-in__left">
             <span class="get-in__subtitle">Get in touch</span>
             <h2 class="get-in__title">
               Think we&nbsp;would be&nbsp;a&nbsp;good fit for your next project?
             </h2>
           </div>
-          <a href="#" class="get-in__link">Get in touch</a>
+          <a href="#" class="btn btn--transparent">Get in touch</a>
         </div>
       </section>
     </main>
@@ -414,14 +412,14 @@
     <!-- footer -->
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div class="footer__left">
           <a
             href="index.html"
             class="footer__logo"
             aria-label="Wishbone Partners logo"
           >
-            <svg aria-hidden="true" focusable="false">
+            <svg aria-hidden="true" focusable="false" width="256" height="22">
               <use href="images/svg/sprite.svg#black-logo-icon" />
             </svg>
           </a>
@@ -434,25 +432,40 @@
             <a href="#" class="footer__link">Licensing.</a>
           </p>
         </div>
-        <div class="socials">
+        <div class="socials footer__socials">
           <ul class="socials__list">
             <li class="socials__item">
               <a href="#" class="socials__link" aria-label="twitter">
-                <svg aria-hidden="true" focusable="false">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="24"
+                  height="24"
+                >
                   <use href="images/svg/sprite.svg#twitter-icon" />
                 </svg>
               </a>
             </li>
             <li class="socials__item">
               <a href="#" class="socials__link" aria-label="instagram">
-                <svg aria-hidden="true" focusable="false">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="24"
+                  height="24"
+                >
                   <use href="images/svg/sprite.svg#instagram-icon" />
                 </svg>
               </a>
             </li>
             <li class="socials__item">
               <a href="#" class="socials__link" aria-label="facebook">
-                <svg aria-hidden="true" focusable="false">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="24"
+                  height="24"
+                >
                   <use href="images/svg/sprite.svg#facebook-icon" />
                 </svg>
               </a>

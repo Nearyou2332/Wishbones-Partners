@@ -4,10 +4,30 @@
   padding: 11px 20px;
   color: var(--color-white);
   font-size: var(--font-size-md);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-brown);
+  outline-offset: 3px;
+}
+
+.btn:hover {
+  background-color: var(--color-beige);
+  color: var(--color-brown);
 }
 
 .btn--transparent {
   display: block;
   background-color: transparent;
   color: var(--color-text-primary);
+}
+
+.btn--transparent:hover {
+  background-color: var(--color-brown);
+  color: var(--color-beige);
+}
+
+.btn--center {
+  align-self: center;
 }
