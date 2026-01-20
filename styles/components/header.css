@@ -20,3 +20,9 @@
   outline: 2px solid var(--color-brown);
   outline-offset: 3px;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__menu {
+    display: none;
+  }
+}

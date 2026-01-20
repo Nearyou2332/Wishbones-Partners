@@ -2,7 +2,7 @@
   padding-block: 100px;
 }
 
-.team__container {
+.team__content {
   display: flex;
   gap: 16px;
 }

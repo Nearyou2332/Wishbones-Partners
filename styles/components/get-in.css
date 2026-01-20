@@ -3,7 +3,7 @@
   background-color: var(--color-dark-beige);
 }
 
-.get-in__container {
+.get-in__content {
   display: flex;
   align-items: center;
 }

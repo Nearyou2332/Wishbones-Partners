@@ -48,3 +48,9 @@
   color: var(--color-text-secondary);
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+  .process__descr {
+    font-size: var(--font-size-sm);
+  }
+}

@@ -5,7 +5,7 @@
 .about__inner {
   max-width: 768px;
   display: flex;
-  gap: 132px;
+  gap: clamp(2rem, 5vw, 130px);
   margin: 0 auto;
 }
 
@@ -27,4 +27,19 @@
   gap: 10px;
   font-size: var(--font-size-md);
   color: var(--color-text-secondary);
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding-block: 60px;
+  }
+
+  .about__inner {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  .about__text {
+    max-width: 100%;
+  }
 }
